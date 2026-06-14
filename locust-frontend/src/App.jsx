@@ -4,7 +4,7 @@ import 'leaflet/dist/leaflet.css'
 import './App.css'
 
 // After deploying the backend to Render, replace with your live URL.
-const API_URL = "http://127.0.0.1:8000"
+const API_URL = "https://locust-watch.onrender.com"
 
 const FIELDS = [
   { key: "soil_moisture", label: "Soil moisture", unit: "mm", min: 0, max: 256, step: 1 },
