@@ -6,6 +6,7 @@ Built from a custom dataset fusing **FAO Locust Hub** swarm records with
 **TerraClimate** environmental data.
 
 **Live demo:** [locust-watch.netlify.app](https://locust-watch.netlify.app/)
+
 **Stack:** Python · scikit-learn · FastAPI · React · Leaflet · TerraClimate · Google Earth Engine
 
 ---
