@@ -1,0 +1,40 @@
+# ── Python (backend) ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+*.log
+
+# ── Node / Vite (frontend) ──
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# ── Editor / OS ──
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ── Environment / secrets ──
+.env
+.env.*
+!.env.example
+
+# ── Large local data (NOT committed — build artifacts / raw downloads) ──
+# Keep these out of the repo; they're regenerable or huge.
+*.nc
+TerraClimate_*.csv
+Desert_locusts_observations*.csv
+training_data*.csv
+coordinates*.csv
+feat_*.csv
+ndvi_values.csv
+points_for_ndvi.csv
+
+# NOTE: model.pkl and grid.json ARE committed (small, required at runtime).
+# They are intentionally NOT ignored here.
