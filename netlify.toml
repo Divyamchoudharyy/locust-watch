@@ -1,0 +1,10 @@
+[build]
+  base = "locust-frontend"
+  command = "npm run build"
+  publish = "dist"
+
+# SPA fallback — serve index.html for all routes
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
