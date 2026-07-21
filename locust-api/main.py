@@ -1,7 +1,10 @@
 """
 Locust Outbreak Predictor — FastAPI backend
-Serves a trained Random Forest that predicts desert-locust swarm
-risk from environmental features (soil moisture, precipitation, max temp).
+- Serves a trained Random Forest that predicts desert-locust swarm
+- risk from environmental features (soil moisture, precipitation, max temp).
++ Serves a trained Logistic Regression pipeline (StandardScaler + LogisticRegression)
++ that predicts desert-locust swarm risk from environmental features
++ (soil moisture, precipitation, max temp).
 """
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
